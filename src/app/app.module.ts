@@ -28,12 +28,16 @@ import { OrderService } from './order/order.service';
 import { DeliveryCostsComponent } from 'app/order/delivery-costs/delivery-costs.component';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { RatingComponent } from 'app/shared/rating/rating.component';
+import {LoginComponent} from './login/login.component';
+import {AccreditedComponent} from './accredited/accredited.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
+    LoginComponent,
+    AccreditedComponent,
     AboutComponent,
     RestaurantsComponent,
     RestaurantComponent,
@@ -48,7 +52,8 @@ import { RatingComponent } from 'app/shared/rating/rating.component';
     OrderItemsComponent,
     DeliveryCostsComponent,
     OrderSummaryComponent,
-    RatingComponent
+    RatingComponent,
+    AccreditedComponent
   ],
   imports: [
     BrowserModule,
